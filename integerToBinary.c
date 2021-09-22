@@ -7,6 +7,7 @@ int intToBit(int num){
   int bit = 0;
 
   while(1<2){
+    
     if(num - pow(2, exponent) == 0){
       bit += pow(10, exponent);
       return bit;
@@ -20,7 +21,6 @@ int intToBit(int num){
       exponent++;
     }
   }
-
 
 }
 
